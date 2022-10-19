@@ -9,6 +9,8 @@ Late Day: Used
 
 ## Description
 
+For this project, I wanted to try recreate Murakami's Flowers through procedural generation and an L-System. The project can be split into two parts, the first being my HDA Procedural Murakami Flower Generator, and the second being the LSystem itself. I learnt a ton through this project, both about Houdini in general as this is my first time ever using it, and also about tool development workflows. A really helpful resource for me throughout the project was Houdini Kitchen's article, https://www.houdinikitchen.net/2019/12/21/how-to-create-l-systems/, which had examples and definitions of the different utilities that Houdini's L-System primitive provides. 
+
 ## Procedural Murakami Flower Generator
 
 ## L-System
@@ -16,7 +18,11 @@ Late Day: Used
 ## Cool screenshot that I liked
 
 <img src="myImages/cool.png" width="600">
-Using Late Day
+
+##
+
+## Using Late Day
+
 # Homework 4: L-systems
 
 For this assignment, you will design a set of formal grammar rules to create
