@@ -7,11 +7,11 @@ Late Day: Used
 <img src="myImages/finalImageFlat.png" width="1000">
 <img src="myImages/finalImage2.png" width="1000">
 
-## Description:
+# Description:
 
 For this project, I wanted to try recreate Murakami's Flowers through procedural generation and an L-System. The project can be split into two parts, the first being my HDA Procedural Murakami Flower Generator, and the second being the LSystem itself. I learnt a ton through this project, both about Houdini in general as this is my first time ever using it, and also about tool development workflows. A really helpful resource for me throughout the project was Houdini Kitchen's article, https://www.houdinikitchen.net/2019/12/21/how-to-create-l-systems/, which had examples and definitions of the different utilities that Houdini's L-System primitive provides. 
 
-## Project Overview:
+# Project Overview:
 
 ### OBJ Level:
 
@@ -43,7 +43,7 @@ The Lsystem node takes in two different leaves, the first being the flowers, and
 
 The Murakami HDA has two parameters, number of petals, and a float "id" received from the LSystem that is in the range of 0-1. Both are used in the generation process of a flower. I wrote stamp functions for both in order for the LSystem to be able to pass information upstream to the flowers from the rules!
 
-## Procedural Murakami Flower Generator (The Murakami HDA Node): 
+# Procedural Murakami Flower Generator (The Murakami HDA Node): 
 
 https://user-images.githubusercontent.com/72320867/196815779-042a96d9-5559-48f2-9dd6-bb5ff4aaf1d1.mov
 
@@ -54,13 +54,13 @@ Before working on my L-System, I needed to first figure out how I was going to b
 <img src="myImages/processScreenshots.jpg" width="1500">
 
 
-## L-System:
+# L-System:
 
-## Cool screenshot that I liked
+# Cool screenshot that I liked
 
 <img src="myImages/cool.png" width="600">
 
-##
+#
 
 ## Using Late Day
 
