@@ -70,19 +70,19 @@ The petals specifically have an interesting color scheme. For instance, if the n
 ## Rules:
 
   - A=[C[G]]Z(t)B
-C=^(30 + 11 * rand(i+t))F(0.07 + rand(i+t)*0.16, 0.06 + rand(i+t)*0.03)P^(10 + 11 * rand(i+t))F(0.05+ rand(i+t)*0.16,0.05 + rand(i+t)*0.03)P^(5 + 11 * rand(i+t))F(0.03+ rand(i+t)*0.16, 0.04 + rand(i+t)*0.02)D
-G=J(0.4*(rand(i+t) * 0.6)*(x*x + z*z) + 0.08, 0, 8 + 15 * rand(i / x * y / z + t), rand(i + t))
-B:rand(i)>0.5=/F(0.005 + 0.03 * rand(i+t))///F(0.05 + 0.03 * rand(i))OA
-B:rand(i)<=0.5=\\(30 * rand(t))F(0.003 + 0.02 * rand(i+t))\F(0.05 + 0.03 * rand(i))OA
-D=^(0 + 5*rand(i+t))F(0.01 + 0.03*rand(i+t), 0.015 + rand(i+t)*0.03)E:0.7
-E=^(0 + 5*rand(i+t))F(0.01 + 0.03*rand(i+t), 0.01 + rand(i+t)*0.03):0.5
-Z(h)=/(1.0 *h*rand(i+t))^(5*rand(i+t)):0.25
-Z(h)=\(1.0 *h*rand(i+t))&(5*rand(i+t)):0.25
-Z(h)=/(1.0 *h*rand(i+t))&(5*rand(i+t)):0.25
-Z(h)=\(1.0 *h*rand(i+t))^(5*rand(i+t)):0.25
-X=//G:0.5
-O=[/(15 * rand(i+t))^(60)-(20 + 20 * rand(i-t))K(0.02 + 0.03 * rand(i+t))][/(15 * rand(i+t) +180)^(60)-(20 + 20 * rand(i-t))K(0.02 + 0.03 * rand(i+t))]
-P=[/(15 * rand(i+t))^(60)-(20 + 20 * rand(i-t))K(0.01 + 0.02 * rand(i+t))][/(15* rand(i+t) +180)^(60)-(20 + 20 * rand(i-t))K(0.01 + 0.02 * rand(i+t))]
+  - C=^(30 + 11 * rand(i+t))F(0.07 + rand(i+t)*0.16, 0.06 + rand(i+t)*0.03)P^(10 + 11 * rand(i+t))F(0.05+ rand(i+t)*0.16,0.05 + rand(i+t)*0.03)P^(5 + 11 * rand(i+t))F(0.03+ rand(i+t)*0.16, 0.04 + rand(i+t)*0.02)D
+  - G=J(0.4*(rand(i+t) * 0.6)*(x*x + z*z) + 0.08, 0, 8 + 15 * rand(i / x * y / z + t), rand(i + t))
+  - B:rand(i)>0.5=/F(0.005 + 0.03 * rand(i+t))///F(0.05 + 0.03 * rand(i))OA
+  - B:rand(i)<=0.5=\\(30 * rand(t))F(0.003 + 0.02 * rand(i+t))\F(0.05 + 0.03 * rand(i))OA
+  - D=^(0 + 5*rand(i+t))F(0.01 + 0.03*rand(i+t), 0.015 + rand(i+t)*0.03)E:0.7
+  - E=^(0 + 5*rand(i+t))F(0.01 + 0.03*rand(i+t), 0.01 + rand(i+t)*0.03):0.5
+  - Z(h)=/(1.0 *h*rand(i+t))^(5*rand(i+t)):0.25
+  - Z(h)=\(1.0 *h*rand(i+t))&(5*rand(i+t)):0.25
+  - Z(h)=/(1.0 *h*rand(i+t))&(5*rand(i+t)):0.25
+  - Z(h)=\(1.0 *h*rand(i+t))^(5*rand(i+t)):0.25
+  - X=//G:0.5
+  - O=[/(15 * rand(i+t))^(60)-(20 + 20 * rand(i-t))K(0.02 + 0.03 * rand(i+t))][/(15 * rand(i+t) +180)^(60)-(20 + 20 * rand(i-t))K(0.02 + 0.03 * rand(i+t))]
+  - P=[/(15 * rand(i+t))^(60)-(20 + 20 * rand(i-t))K(0.01 + 0.02 * rand(i+t))][/(15* rand(i+t) +180)^(60)-(20 + 20 * rand(i-t))K(0.01 + 0.02 * rand(i+t))]
 
 
 <img src="myImages/lsystemDiagram.png" width="1300">
