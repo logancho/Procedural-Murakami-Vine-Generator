@@ -13,7 +13,7 @@ For this project, I wanted to try recreate Murakami's Flowers through procedural
 
 ### Reference:
 
-<img src="reference.png" width="800">
+<img src="reference.jpg" width="800">
 
 # Project Overview:
 
@@ -103,11 +103,13 @@ I really enjoyed this project. Being new to Houdini made everything extra challe
 
 # Miscellaneous:
 
-#Cool screenshot that I liked
+### Cool screenshot that I liked
 
 <img src="myImages/cool.png" width="600">
 
-#
+### Modeling the face in Maya:
+
+<img src="myImages/screenshot3DModelFace.png" width="700">
 
 ## Using Late Day
 
