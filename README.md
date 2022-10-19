@@ -4,8 +4,8 @@ Late Day: Used
 ## Procedural Murakami Flower Vine (Logan Cho)
 
 
-<img src="myImages/finalImageFlat.png" width="800">
-<img src="myImages/finalImage2.png" width="800">
+<img src="myImages/finalImageFlat.png" width="1000">
+<img src="myImages/finalImage2.png" width="1000">
 
 ## Description:
 
@@ -15,13 +15,13 @@ For this project, I wanted to try recreate Murakami's Flowers through procedural
 
 ### OBJ Level:
 
-<img src="myImages/Process Screenshots/screenshotOBJ.png" width="1200">
+<img src="myImages/Process Screenshots/screenshotOBJ.png" width="1000">
 
 ### LSystemMurakami HDA:
 
 Within my 'Flower' geom, I have an L-System Murakami Digital Asset Subnet as follows:
 
-<img src="myImages/Process Screenshots/screenshotLSystemHDA.png" width="1200">
+<img src="myImages/Process Screenshots/screenshotLSystemHDA.png" width="1000">
 
 The LSystemHDA takes in # of generations as a parameter, and this would be useful if I ever wanted to spawn many of my vines at varying levels of generations!
 
@@ -29,17 +29,17 @@ The LSystemHDA takes in # of generations as a parameter, and this would be usefu
 
 I wanted to experiment with this idea more, but ran out of time to implement anything further. Will definitely do this in the future when I get the time.
 
-<img src="myImages/screenshotForFunHoudini.png" width="1200">
+<img src="myImages/screenshotForFunHoudini.png" width="1000">
 
 #### (Back to the LSystemHDA Node)
 
-<img src="myImages/Process Screenshots/screenshotLSystemHDAInside.png" width="1200">
+<img src="myImages/Process Screenshots/screenshotLSystemHDAInside.png" width="1000">
 
 The Lsystem node takes in two different leaves, the first being the flowers, and the second being a simple model of a leaf I modelled in Maya and imported as an FBX into the project (as observable in the OBJ Level screenshot.) 
 
 ### Murakami HDA:
 
-<img src="myImages/Process Screenshots/screenshotMurakamiHDA.png" width="1200">
+<img src="myImages/Process Screenshots/screenshotMurakamiHDA.png" width="1000">
 
 The Murakami HDA has two parameters, number of petals, and a float "id" received from the LSystem that is in the range of 0-1. Both are used in the generation process of a flower. I wrote stamp functions for both in order for the LSystem to be able to pass information upstream to the flowers from the rules!
 
@@ -51,7 +51,7 @@ Before working on my L-System, I needed to first figure out how I was going to b
 
 ### Process Explanation:
 
-<img src="myImages/processScreenshots.png" width="1500">
+<img src="myImages/processScreenshots.jpg" width="1500">
 
 
 ## L-System:
