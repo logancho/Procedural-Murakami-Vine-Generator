@@ -7,13 +7,22 @@ Late Day: Used
 <img src="myImages/finalImageFlat.png" width="800">
 <img src="myImages/finalImage2.png" width="800">
 
-## Description
+## Description:
 
 For this project, I wanted to try recreate Murakami's Flowers through procedural generation and an L-System. The project can be split into two parts, the first being my HDA Procedural Murakami Flower Generator, and the second being the LSystem itself. I learnt a ton through this project, both about Houdini in general as this is my first time ever using it, and also about tool development workflows. A really helpful resource for me throughout the project was Houdini Kitchen's article, https://www.houdinikitchen.net/2019/12/21/how-to-create-l-systems/, which had examples and definitions of the different utilities that Houdini's L-System primitive provides. 
 
-## Procedural Murakami Flower Generator
+## Project Overview:
 
-## L-System
+
+## Procedural Murakami Flower Generator:
+
+https://vimeo.com/762039815
+
+Before working on my L-System, I needed to first figure out how I was going to be creating my Murakami Flowers. One method would be for me to manually create an array of flowers with different features, and then select between when feeding them into the L-System. The more interesting approach that I wanted to take was to create an actual procedural generator in Houdini, with which I could then generate unique, flowers on demand within the L-System via stamping parameters up-stream. 
+
+
+
+## L-System:
 
 ## Cool screenshot that I liked
 
