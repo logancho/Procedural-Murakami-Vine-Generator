@@ -13,9 +13,11 @@ For this project, I wanted to try recreate Murakami's Flowers through procedural
 
 ## Project Overview:
 
-#OBJ Level:
+# OBJ Level:
 
 <img src="myImages/Process Screenshots/screenshotOBJ.png" width="1200">
+
+# lSystemMurakami HDA:
 
 Within my 'Flower' geom, I have an L-System Murakami Digital Asset Subnet as follows:
 
@@ -23,9 +25,19 @@ Within my 'Flower' geom, I have an L-System Murakami Digital Asset Subnet as fol
 
 The LSystemHDA takes in # of generations as a parameter, and this would be useful if I ever wanted to spawn many of my vines at varying levels of generations!
 
-(I wanted to experiment with this, but I ran out of time to actually implement it:)
+### (Aside)
+
+I wanted to experiment with this idea more, but ran out of time to implement anything further. Will definitely do this in the future when I get the time.
 
 <img src="myImages/screenshotForFunHoudini.png" width="1200">
+
+### (Aside/end)
+
+<img src="myImages/Process Screenshots/screenshotLSystemHDAInside.png" width="1200">
+
+The Lsystem node takes in two different leaves, the first being the flowers, and the second being a simple model of a leaf I modelled in Maya and imported as an FBX into the project (as observable in the OBJ Level screenshot.) 
+
+# Murakami HDA:
 
 
 ## Procedural Murakami Flower Generator:
