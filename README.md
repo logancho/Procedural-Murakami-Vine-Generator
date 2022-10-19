@@ -69,7 +69,7 @@ The petals specifically have an interesting color scheme. For instance, if the n
 
 ## Rules:
 
-<img src="myImages/lSystemDiagram.png" width="1300">
+<img src="myImages/lSystemDiagram.png" width="1000">
 
 
 # Cool screenshot that I liked
