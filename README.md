@@ -17,7 +17,7 @@ For this project, I wanted to try recreate Murakami's Flowers through procedural
 
 <img src="myImages/Process Screenshots/screenshotOBJ.png" width="1200">
 
-# lSystemMurakami HDA:
+# LSystemMurakami HDA:
 
 Within my 'Flower' geom, I have an L-System Murakami Digital Asset Subnet as follows:
 
@@ -31,7 +31,7 @@ I wanted to experiment with this idea more, but ran out of time to implement any
 
 <img src="myImages/screenshotForFunHoudini.png" width="1200">
 
-### (Aside/end)
+### (Back to the LSystemHDA Node)
 
 <img src="myImages/Process Screenshots/screenshotLSystemHDAInside.png" width="1200">
 
@@ -39,6 +39,9 @@ The Lsystem node takes in two different leaves, the first being the flowers, and
 
 # Murakami HDA:
 
+<img src="myImages/Process Screenshots/screenshotMurakamiHDA.png" width="1200">
+
+The Murakami HDA has two parameters, number of petals, and a unique id input from the LSystem in the range of 0-1. Both are used in the generation process of a flower. I wrote stamp functions for both in order for the LSystem to be able to pass information upstream to the flowers from the rules!
 
 ## Procedural Murakami Flower Generator:
 
