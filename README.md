@@ -3,7 +3,7 @@ Late Day: Used
 
 # Procedural Murakami Flower Vine (Logan Cho)
 
-![](/myimages/cool.png)
+![](/myImages/cool.png)
 
 
 Using Late Day
