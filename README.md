@@ -13,7 +13,8 @@ For this project, I wanted to try recreate Murakami's Flowers through procedural
 
 ## Project Overview:
 
-![](/myImages/Process Screenshots/screenshotOBJ.png)
+![]"(/myImages/Process Screenshots/screenshotOBJ.png)"
+
 
 
 ## Procedural Murakami Flower Generator:
