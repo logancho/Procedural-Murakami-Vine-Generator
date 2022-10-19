@@ -53,6 +53,17 @@ Before working on my L-System, I needed to first figure out how I was going to b
 
 <img src="myImages/processScreenshots.jpg" width="1500">
 
+As you can see, I replicate the petal shape of Murakami's Flowers through two main steps. 
+
+1. Firstly, I modelled a petal through deforming a cube, and then used the subdivision node to make the shape smoother. I also apply rotation to the petal based on the node's parameters (id and petal_number), which controls how much the petals fold inwards/outwards in the final result. 
+
+2. Secondly, I segment a primitve circle in order to obtain a regular polygon of points to which I can then copy the petals onto. In order to get the orientation correct and have the petals pointing inwards, I used the polyfram node to replace the tangents of the points with their normals!
+
+Finally, through the copy-to-points node, I am able to get the final petal structure, which is then merged with the face of the flower which I modelled separately in Maya. 
+
+Throughout the node, I also have several wrangles for grouping points into shared characteristics such as a mouth group, left eye group, etc. This is important for when I randomly color the different elements of the flower based on the digital asset's inputs received from the L-System. 
+
+The petals specifically have an interesting color scheme. For instance, if the number of petals is even, it is possible for the petal to have an alternating 2-color scheme, on top of other options such as a cosine color scheme gradient, as well as a uniform color.
 
 # L-System:
 
