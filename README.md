@@ -1,14 +1,19 @@
 Name: Logan Cho
 Late Day: Used
 
-# Procedural Murakami Flower Vine (Logan Cho)
+## Procedural Murakami Flower Vine (Logan Cho)
 
 
-<img src="myImages/finalImageFlat.png" width="600">
-<img src="myImages/finalImage2.png" width="600">
+<img src="myImages/finalImageFlat.png" width="800">
+<img src="myImages/finalImage2.png" width="800">
 
+## Description
 
-wdwdw
+## Procedural Murakami Flower Generator
+
+## L-System
+
+## Cool screenshot that I liked
 
 <img src="myImages/cool.png" width="600">
 Using Late Day
