@@ -1,7 +1,7 @@
 Name: Logan Cho
 Late Day: Used
 
-## Procedural Murakami Flower Vine (Logan Cho)
+# Procedural Murakami Flower Vine (Logan Cho)
 
 
 <img src="myImages/finalImageFlat.png" width="1000">
