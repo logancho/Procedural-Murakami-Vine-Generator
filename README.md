@@ -11,6 +11,9 @@ Late Day: Used
 
 For this project, I wanted to try recreate Murakami's Flowers through procedural generation and an L-System. The project can be split into two parts, the first being my HDA Procedural Murakami Flower Generator, and the second being the LSystem itself. I learnt a ton through this project, both about Houdini in general as this is my first time ever using it, and also about tool development workflows. A really helpful resource for me throughout the project was Houdini Kitchen's article, https://www.houdinikitchen.net/2019/12/21/how-to-create-l-systems/, which had examples and definitions of the different utilities that Houdini's L-System primitive provides. 
 
+# Reference:
+
+
 # Project Overview:
 
 ### OBJ Level:
@@ -93,7 +96,13 @@ The most important aspect of the rules is the use of the rand() function, in ord
 
 <img src="myImages/lsystemDiagram.png" width="1300">
 
-# Cool screenshot that I liked
+# Conclusion:
+
+I really enjoyed this project. Being new to Houdini made everything extra challenging (this is a huge understatement lol), but now that I've spent all of this time working with it, I've come to see just how great of a tool it can be. I think the final result matches up pretty similarly with the goal I'd had from the beginning, and I think I'm a lot more confident now with actuating my ideas into projects! : )
+
+# Miscellaneous:
+
+#Cool screenshot that I liked
 
 <img src="myImages/cool.png" width="600">
 
