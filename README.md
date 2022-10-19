@@ -67,7 +67,7 @@ The petals specifically have an interesting color scheme. For instance, if the n
 
 # L-System:
 
-## Rules:
+### Rules:
 
   - A=[C[G]]Z(t)B
   - C=^(30 + 11 * rand(i+t))F(0.07 + rand(i+t)*0.16, 0.06 + rand(i+t)*0.03)P^(10 + 11 * rand(i+t))F(0.05+ rand(i+t)*0.16,0.05 + rand(i+t)*0.03)P^(5 + 11 * rand(i+t))F(0.03+ rand(i+t)*0.16, 0.04 + rand(i+t)*0.02)D
@@ -85,8 +85,13 @@ The petals specifically have an interesting color scheme. For instance, if the n
   - P=[/(15 * rand(i+t))^(60)-(20 + 20 * rand(i-t))K(0.01 + 0.02 * rand(i+t))][/(15* rand(i+t) +180)^(60)-(20 + 20 * rand(i-t))K(0.01 + 0.02 * rand(i+t))]
 
 
-<img src="myImages/lsystemDiagram.png" width="1300">
+Through my L-System rules, I wanted to create a vine that had subtle rotations over generations, little leaves across its main stem and branches, and finally, many diverse Murakami flowers branching off of it. 
 
+One notable feature of the scale of the flowers is that the grow larger the further away from the main stem they are.
+
+The most important aspect of the rules is the use of the rand() function, in order ot add some natural variation to the length of branches, distance between consecutive flowers, pass unique inputs to the flower generator via stamping, and more.
+
+<img src="myImages/lsystemDiagram.png" width="1300">
 
 # Cool screenshot that I liked
 
