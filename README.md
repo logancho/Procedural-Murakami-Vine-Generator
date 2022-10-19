@@ -41,16 +41,17 @@ The Lsystem node takes in two different leaves, the first being the flowers, and
 
 <img src="myImages/Process Screenshots/screenshotMurakamiHDA.png" width="1200">
 
-The Murakami HDA has two parameters, number of petals, and a unique id input from the LSystem in the range of 0-1. Both are used in the generation process of a flower. I wrote stamp functions for both in order for the LSystem to be able to pass information upstream to the flowers from the rules!
+The Murakami HDA has two parameters, number of petals, and a float "id" received from the LSystem that is in the range of 0-1. Both are used in the generation process of a flower. I wrote stamp functions for both in order for the LSystem to be able to pass information upstream to the flowers from the rules!
 
-## Procedural Murakami Flower Generator:
-
+## Procedural Murakami Flower Generator (The Murakami HDA Node): 
 
 https://user-images.githubusercontent.com/72320867/196815779-042a96d9-5559-48f2-9dd6-bb5ff4aaf1d1.mov
 
-
 Before working on my L-System, I needed to first figure out how I was going to be adding the flowers. One method would be for me to manually create an array of flowers with different features, and then select between when feeding them into the L-System. The more interesting approach that I wanted to take was to create an actual procedural generator which I could use to generate unique flowers on demand within the L-System via stamping parameters up-stream. 
 
+### Process Explanation:
+
+<img src="myImages/processScreenshots.png" width="1500">
 
 
 ## L-System:
