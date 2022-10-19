@@ -61,11 +61,16 @@ As you can see, I replicate the petal shape of Murakami's Flowers through two ma
 
 Finally, through the copy-to-points node, I am able to get the final petal structure, which is then merged with the face of the flower which I modelled separately in Maya. 
 
-Throughout the node, I also have several wrangles for grouping points into shared characteristics such as a mouth group, left eye group, etc. This is important for when I randomly color the different elements of the flower based on the digital asset's inputs received from the L-System. 
+Throughout the node, I also have several wrangles for grouping points into shared characteristics such as a mouth group, left eye group, etc. This is important for when I randomly color the different elements of the flower based on the digital asset's inputs received from the L-System. The geometry spreadsheet was incredibly useful for the grouping portion of this process, as I was able to see the different attributes of points at different parts of the pipeline and quickly debug any issues I was having.
 
 The petals specifically have an interesting color scheme. For instance, if the number of petals is even, it is possible for the petal to have an alternating 2-color scheme, on top of other options such as a cosine color scheme gradient, as well as a uniform color.
 
 # L-System:
+
+## Rules:
+
+<img src="myImages/lSystemDiagram.png" width="1300">
+
 
 # Cool screenshot that I liked
 
