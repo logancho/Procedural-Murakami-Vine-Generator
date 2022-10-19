@@ -16,7 +16,7 @@ For this project, I wanted to try recreate Murakami's Flowers through procedural
 
 ## Procedural Murakami Flower Generator:
 
-![](myImages/proceduralFlowerDemo.mov)
+![](proceduralFlowerDemo.mov)
 
 Before working on my L-System, I needed to first figure out how I was going to be creating my Murakami Flowers. One method would be for me to manually create an array of flowers with different features, and then select between when feeding them into the L-System. The more interesting approach that I wanted to take was to create an actual procedural generator in Houdini, with which I could then generate unique, flowers on demand within the L-System via stamping parameters up-stream. 
 
