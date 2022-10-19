@@ -1,3 +1,11 @@
+Name: Logan Cho
+Late Day: Used
+
+# Procedural Murakami Flower Vine (Logan Cho)
+
+[![]("/myimages/cool.png")]
+
+
 Using Late Day
 # Homework 4: L-systems
 
