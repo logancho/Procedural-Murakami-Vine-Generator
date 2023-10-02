@@ -1,7 +1,4 @@
-Name: Logan Cho
-Late Day: Used
-
-# Procedural Murakami Flower Vine (Logan Cho)
+# Procedural Murakami Vine Generator (Houdini Project)
 
 
 <img src="myImages/finalImageFlat.png" width="1000">
